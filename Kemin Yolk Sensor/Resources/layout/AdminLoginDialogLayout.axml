@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+	<TextView
+		android:text="Login As Admin"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+	<EditText
+		android:inputType="textEmailAddress"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="300px"		
+		android:id="@+id/adminUsernameEditText" />
+	<EditText
+		android:inputType="textPassword"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:minWidth="300px"
+		android:id="@+id/adminPasswordEditText" />
+	<Button
+		android:text="Login"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:minWidth="300px"
+		android:id="@+id/adminLoginBtn" />
+</LinearLayout>

@@ -206,3 +206,4 @@ D:/Internship/Kemin Yolk Sensor/Kemin Yolk Sensor/obj/Debug/res/drawable/keminlo
 /Users/ayush/Freelance/Kemin Yolk Score App/Kemin Yolk Score App/Kemin Yolk Sensor/Kemin Yolk Sensor/obj/Debug/android/assets/machine.config
 /Users/ayush/Freelance/Kemin Yolk Score App/Kemin Yolk Score App/Kemin Yolk Sensor/Kemin Yolk Sensor/obj/Debug/stamp/_CompileToDalvik.stamp
 /Users/ayush/Freelance/Kemin Yolk Score App/Kemin Yolk Score App/Kemin Yolk Sensor/Kemin Yolk Sensor/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
+/Users/ayush/Freelance/Kemin Yolk Score App/Kemin Yolk Score App/Kemin Yolk Sensor/Kemin Yolk Sensor/obj/Debug/res/layout/adminlogindialoglayout.xml

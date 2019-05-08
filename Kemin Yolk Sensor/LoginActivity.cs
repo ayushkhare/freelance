@@ -38,7 +38,8 @@ namespace Kemin_Yolk_Sensor
 
         private void AdminLogin(object sender, EventArgs e)
         {
-
+            AdminLoginDialog adminLoginDialog = new AdminLoginDialog(this);
+            adminLoginDialog.Show();
         }
 
         private void UserLogin(object sender, EventArgs e)
@@ -46,32 +47,31 @@ namespace Kemin_Yolk_Sensor
             string usernameString = username.Text;
             string passwordString = password.Text;
 
-            if(String.IsNullOrEmpty(usernameString))
+            if (String.IsNullOrEmpty(usernameString))
             {
                 Toast.MakeText(Application.Context, 
                     $"Username cannot be empty!", ToastLength.Short).Show();
-            } else if(String.IsNullOrEmpty(passwordString))
+            } else if (String.IsNullOrEmpty(passwordString))
             {
                 Toast.MakeText(Application.Context,
                     $"Password cannot be empty!", ToastLength.Short).Show();
             } else
             {
-                DateTime expiryDate = DateTime.Today;
-                Toast.MakeText(Application.Context, $"{expiryDate}", ToastLength.Long).Show();
-                //User user = new User(usernameString, passwordString, expiryDate,
-                //     Role.USER);
-                //var id = DatabaseManager.SaveUser(user);
-                //var loggedInUser = DatabaseManager.GetUser(id);
-                //if(loggedInUser == null)
-                //{
-                //    Toast.MakeText(Application.Context, $"User not saved", 
-                //        ToastLength.Short).Show();
-                //} else
-                //{
-                //    Toast.MakeText(Application.Context, 
-                //        $"User saved, details: {user}", 
-                //        ToastLength.Short).Show();
-                //}
+                DateTime expiryDate = DateTime.Today.AddMonths(1);
+                User user = new User(usernameString, passwordString, expiryDate,
+                     Role.USER);
+                var id = DatabaseManager.SaveUser(user);
+                var loggedInUser = DatabaseManager.GetUser(id);
+                if(loggedInUser == null)
+                {
+                    Toast.MakeText(Application.Context, $"User not saved", 
+                        ToastLength.Short).Show();
+                } else
+                {
+                    Toast.MakeText(Application.Context, 
+                        $"User saved, details: {user}", 
+                        ToastLength.Short).Show();
+                }
             }
         }
     }
