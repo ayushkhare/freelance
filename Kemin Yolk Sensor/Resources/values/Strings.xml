@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Kemin Yolk Sensor</string>
+  <string name="get_permission">This sample needs camera permission.</string>
+  <string name="camera_error">This device does not support the required Camera2 API, and cannot be
+  used</string>
+</resources>

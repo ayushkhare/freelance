@@ -1,0 +1,53 @@
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Kemin Yolk Sensor.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Kemin Yolk Sensor.pdb
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Kemin_Yolk_Sensor.Kemin_Yolk_Sensor.apk
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Kemin_Yolk_Sensor.Kemin_Yolk_Sensor-Signed.apk
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Newtonsoft.Json.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Xamarin.Android.Support.Annotations.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Xamarin.Android.Support.Compat.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Xamarin.Android.Support.Fragment.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Xamarin.Android.Support.v13.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Xamarin.Android.Support.v4.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Newtonsoft.Json.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\Kemin Yolk Sensor.csproj.CoreCompileInputs.cache
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\Kemin Yolk Sensor.dll
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\Kemin Yolk Sensor.pdb
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\android\bin\Kemin_Yolk_Sensor.Kemin_Yolk_Sensor.apk
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\layout\main.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\layout\main_camera.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\values\strings.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\marker.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\buttonshape.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\squaremarker.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\splash.png
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\splashscreen.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\values\styles.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\savebutton.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\layout\listlayout.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\listitemselector.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\menu\listmenu.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\calibrationmarker.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable-mdpi\ic_list_white_24dp.png
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\listimage.png
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\calibrateimg.png
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\saveimage.png
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\unlockedimg.png
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\lockedimg.png
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\photoimg.png
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\cancelimg.png
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\displaybutton.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\calibrationimg.png
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\scorebutton.xml
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\R.cs.flag
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\uploadflags.txt
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\Kemin Yolk Sensor.csprojResolveAssemblyReference.cache
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\bin\Debug\Kemin Yolk Sensor.dll.mdb
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\android\assets\Kemin Yolk Sensor.dll.mdb
+D:\Internship\Kemin Yolk Sensor\Kemin Yolk Sensor\obj\Debug\res\drawable\keminlogo.png
