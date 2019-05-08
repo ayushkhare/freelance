@@ -13,7 +13,7 @@ public class InputConnectionCompat_OnCommitContentListenerImplementor
 		__md_methods = 
 			"n_onCommitContent:(Landroid/support/v13/view/inputmethod/InputContentInfoCompat;ILandroid/os/Bundle;)Z:GetOnCommitContent_Landroid_support_v13_view_inputmethod_InputContentInfoCompat_ILandroid_os_Bundle_Handler:Android.Support.V13.View.Inputmethod.InputConnectionCompat/IOnCommitContentListenerInvoker, Xamarin.Android.Support.v13\n" +
 			"";
-		mono.android.Runtime.register ("Android.Support.V13.View.Inputmethod.InputConnectionCompat+IOnCommitContentListenerImplementor, Xamarin.Android.Support.v13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", InputConnectionCompat_OnCommitContentListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Android.Support.V13.View.Inputmethod.InputConnectionCompat+IOnCommitContentListenerImplementor, Xamarin.Android.Support.v13", InputConnectionCompat_OnCommitContentListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class InputConnectionCompat_OnCommitContentListenerImplementor
 	{
 		super ();
 		if (getClass () == InputConnectionCompat_OnCommitContentListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Android.Support.V13.View.Inputmethod.InputConnectionCompat+IOnCommitContentListenerImplementor, Xamarin.Android.Support.v13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Android.Support.V13.View.Inputmethod.InputConnectionCompat+IOnCommitContentListenerImplementor, Xamarin.Android.Support.v13", "", this, new java.lang.Object[] {  });
 	}
 
 

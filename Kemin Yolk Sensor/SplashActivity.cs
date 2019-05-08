@@ -43,7 +43,7 @@ namespace Kemin_Yolk_Sensor
             //A small delay for before the app starts
             await Task.Delay(2000);
             //Start the main activity of the app
-            StartActivity(new Intent(Application.Context, typeof(MainActivity)));
+            StartActivity(new Intent(Application.Context, typeof(LoginActivity)));
         }
     }
 }

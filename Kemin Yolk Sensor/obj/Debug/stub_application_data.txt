@@ -1,2 +1,0 @@
-android.app.Application
-Kemin_Yolk_Sensor.Kemin_Yolk_Sensor

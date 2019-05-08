@@ -13,7 +13,7 @@ public class DragStartHelper_OnDragStartListenerImplementor
 		__md_methods = 
 			"n_onDragStart:(Landroid/view/View;Landroid/support/v13/view/DragStartHelper;)Z:GetOnDragStart_Landroid_view_View_Landroid_support_v13_view_DragStartHelper_Handler:Android.Support.V13.View.DragStartHelper/IOnDragStartListenerInvoker, Xamarin.Android.Support.v13\n" +
 			"";
-		mono.android.Runtime.register ("Android.Support.V13.View.DragStartHelper+IOnDragStartListenerImplementor, Xamarin.Android.Support.v13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", DragStartHelper_OnDragStartListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Android.Support.V13.View.DragStartHelper+IOnDragStartListenerImplementor, Xamarin.Android.Support.v13", DragStartHelper_OnDragStartListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class DragStartHelper_OnDragStartListenerImplementor
 	{
 		super ();
 		if (getClass () == DragStartHelper_OnDragStartListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Android.Support.V13.View.DragStartHelper+IOnDragStartListenerImplementor, Xamarin.Android.Support.v13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Android.Support.V13.View.DragStartHelper+IOnDragStartListenerImplementor, Xamarin.Android.Support.v13", "", this, new java.lang.Object[] {  });
 	}
 
 
