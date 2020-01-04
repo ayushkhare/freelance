@@ -18,16 +18,18 @@ namespace Kemin_Yolk_Sensor
         private EditText username;
         private EditText password;
         private Button loginBtn;
+        private Context context;
 
         public AdminLoginDialog(Context context) : base(context)
         {
+            this.context = context;
         }
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.AdminLoginDialogLayout);
-
+                        
             username = FindViewById<EditText>(Resource.Id.adminUsernameEditText);
             password = FindViewById<EditText>(Resource.Id.adminPasswordEditText);
             loginBtn = FindViewById<Button>(Resource.Id.adminLoginBtn);
@@ -53,9 +55,10 @@ namespace Kemin_Yolk_Sensor
                 Toast.MakeText(Application.Context,
                     $"Invalid admin credentials!", ToastLength.Short).Show();
             } else
-            {
-                Toast.MakeText(Application.Context, $"success", 
-                    ToastLength.Short).Show();
+            {                
+                var intent = new Intent(context, typeof(UserManagementActivity));
+                context.StartActivity(intent);
+                this.Dismiss();
             }
         }
     }

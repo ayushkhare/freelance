@@ -6,6 +6,7 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
@@ -15,30 +16,48 @@ using Kemin_Yolk_Sensor.Model;
 
 namespace Kemin_Yolk_Sensor
 {
-    [Activity(Label = "LoginActivity")]
+    [Activity(Theme = "@style/MyTheme.Login", Label = "8SCAN™", ScreenOrientation = ScreenOrientation.Portrait)]
     public class LoginActivity : Activity
     {
         private EditText username;
         private EditText password;
         private Button userLoginBtn;
-        private Button adminLoginBtn;
+        private ImageView adminLoginBtn;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.LoginLayout);
 
-            username = FindViewById<EditText>(Resource.Id.usernameEditTex);
+            username = FindViewById<EditText>(Resource.Id.usernameEditText);
             password = FindViewById<EditText>(Resource.Id.passwordEditText);
             userLoginBtn = FindViewById<Button>(Resource.Id.userLoginBtn);
-            adminLoginBtn = FindViewById<Button>(Resource.Id.adminLoginBtn);
+            adminLoginBtn = FindViewById<ImageView>(Resource.Id.adminLoginBtn);
             userLoginBtn.Click += this.UserLogin;
-            adminLoginBtn.Click += this.AdminLogin;
+            adminLoginBtn.Click += this.AdminLogin;          
+
+            ActionBar.SetHomeButtonEnabled(true);
+            ActionBar.SetDisplayHomeAsUpEnabled(true);
+            ActionBar.SetIcon(Android.Resource.Color.Transparent);
+        }
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch (item.ItemId)
+            {
+                case Android.Resource.Id.Home:
+                    Finish();
+                    return true;
+
+                default:
+                    return base.OnOptionsItemSelected(item);
+            }
         }
 
         private void AdminLogin(object sender, EventArgs e)
         {
             AdminLoginDialog adminLoginDialog = new AdminLoginDialog(this);
+            adminLoginDialog.Window.SetBackgroundDrawableResource(Android.Resource.Color.Transparent);
             adminLoginDialog.Show();
         }
 
@@ -56,20 +75,24 @@ namespace Kemin_Yolk_Sensor
                 Toast.MakeText(Application.Context,
                     $"Password cannot be empty!", ToastLength.Short).Show();
             } else
-            {
-                DateTime expiryDate = DateTime.Today.AddMonths(1);
-                User user = new User(usernameString, passwordString, expiryDate,
-                     Role.USER);
-                var id = DatabaseManager.SaveUser(user);
-                var loggedInUser = DatabaseManager.GetUser(id);
-                if(loggedInUser == null)
+            {                                
+                User validUser = DatabaseManager.FindUser(usernameString,
+                    passwordString);                
+                if(validUser != null)
                 {
-                    Toast.MakeText(Application.Context, $"User not saved", 
+                    if (validUser.ExpiryDate < DateTime.Now)
+                    {
+                        Toast.MakeText(Application.Context,
+                        $"Account has expired",
                         ToastLength.Short).Show();
+                    } else
+                    {
+                        StartActivity(new Intent(this, typeof(MainActivity)));
+                    }                    
                 } else
                 {
                     Toast.MakeText(Application.Context, 
-                        $"User saved, details: {user}", 
+                        $"Invalid credentials or account has expired", 
                         ToastLength.Short).Show();
                 }
             }

@@ -6,6 +6,7 @@ namespace Kemin_Yolk_Sensor.Model
     [Table("user")]
     public class User
     {
+        [PrimaryKey, AutoIncrement, Indexed]
         public int Id { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
