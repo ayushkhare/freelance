@@ -88,6 +88,7 @@ namespace Kemin_Yolk_Sensor
                     } else
                     {
                         StartActivity(new Intent(this, typeof(MainActivity)));
+                        Finish();
                     }                    
                 } else
                 {

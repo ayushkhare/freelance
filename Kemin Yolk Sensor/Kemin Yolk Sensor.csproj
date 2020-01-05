@@ -112,8 +112,6 @@
     <Compile Include="SaveListActivity.cs" />
     <Compile Include="SplashActivity.cs" />
     <Compile Include="YolkScores.cs" />
-    <Compile Include="SQLiteAsync.cs" />
-    <Compile Include="SQLite.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Model\Role.cs" />
     <Compile Include="Constants\Constants.cs" />
@@ -123,6 +121,8 @@
     <Compile Include="UserManagementActivity.cs" />
     <Compile Include="UserManagementAdapter.cs" />
     <Compile Include="AddUserActivity.cs" />
+    <Compile Include="SQLiteAsync.cs" />
+    <Compile Include="SQLite.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />

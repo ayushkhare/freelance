@@ -599,6 +599,7 @@ namespace Kemin_Yolk_Sensor
                         //set the focus status to locked
                         focusLocked = true;
                         //changes the image to look from unlocked to locked
+                        Toast.MakeText(this.Activity, "Focus Locked", ToastLength.Short).Show();
                         focuslock_Btn.SetImageResource(Resource.Drawable.lockedimg);
 
                         //if the phone does not support the camera focus coded in the app, it will be assigned
@@ -642,8 +643,10 @@ namespace Kemin_Yolk_Sensor
                     {
                         //set the focus status to unlocked
                         focusLocked = false;
-                        
-                        
+
+                        Toast.MakeText(this.Activity, "Focus Unlocked", ToastLength.Short).Show();
+                        focuslock_Btn.SetImageResource(Resource.Drawable.unlockedimg);
+
                         //if the phone is "old", just make it so it's the same as above and manually focus
                         //with the button as it's the only thing the phone can do in this case
                         if (phonemodel == "old")
@@ -657,9 +660,7 @@ namespace Kemin_Yolk_Sensor
                         //if the phone is "new", reverts it to a state of constant autofocus before they locked 
                         //the focus
                         if (phonemodel == "new")
-                        {
-                            Toast.MakeText(this.Activity, "Focus Unlocked", ToastLength.Short).Show();
-                            focuslock_Btn.SetImageResource(Resource.Drawable.unlockedimg);
+                        {                            
                             PreviewRequestBuilder.Set(CaptureRequest.ControlAfMode, (int)ControlAFMode.ContinuousPicture);
                             cameraCaptureSession.SetRepeatingRequest(PreviewRequestBuilder.Build(), captureCallBack,
                                     backHandler);
@@ -763,14 +764,20 @@ namespace Kemin_Yolk_Sensor
                         string detectedcolour = yolkScores.GetColour(red, green, blue);
                         scoreDisplay.Text = detectedcolour;
 
+                    string scoreText = "";
+                    if (detectedcolour != "")
+                    {
+                        scoreText += "Score: " + detectedcolour + " ";
+                    }
+
                     //for getting rgb and score
-                    //saveText = "(" + detectedcolour + ") " + "  (" + rgb + ") " + DateTime.Now.ToString("dd\\/MM\\/yyyy h\\:mm tt");
+                    saveText = scoreText + "RGB:" + "(" + rgb + ") " + DateTime.Now.ToString("dd\\/MM\\/yyyy h\\:mm tt");
 
                     //for user
-                    saveText = "Score: " + detectedcolour + " (" + DateTime.Now.ToString("dd\\/MM\\/yyyy h\\:mm tt") + ")";
+                    //saveText = "Score: " + detectedcolour + " (" + DateTime.Now.ToString("dd\\/MM\\/yyyy h\\:mm tt") + ")";
 
 
-                    Toast.MakeText(this.Activity, "Score Taken!", ToastLength.Short).Show();
+                    Toast.MakeText(this.Activity, saveText, ToastLength.Short).Show();
 
                    //delete the bitmap after doing the reading to make space for more readings
                     bitmap.Recycle();

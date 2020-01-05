@@ -408,7 +408,6 @@ D:/Internship/Kemin Yolk Sensor/Kemin Yolk Sensor/obj/Debug/res/drawable/keminlo
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/src/mono/android/support/v7/app/ActionBar_TabListenerImplementor.java
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/src/mono/android/support/v7/app/ActionBar_OnMenuVisibilityListenerImplementor.java
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/src/mono/android/support/v7/app/ActionBar_OnNavigationListenerImplementor.java
-/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/src/android/support/v4/R.java
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/src/android/support/v7/cardview/R.java
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/src/mono/android/app/ApplicationRegistration.java
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/src/android/support/v7/appcompat/R.java
