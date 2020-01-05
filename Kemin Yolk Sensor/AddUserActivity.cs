@@ -85,10 +85,7 @@ namespace Kemin_Yolk_Sensor
             string usernameString = username.Text;
             string passwordString = password.Text;
 
-            DateTime parsedDateTime = DateTime.Parse(expiry.Text);
-            Toast.MakeText(Application.Context,
-                    $"Hello" + parsedDateTime.ToString(),
-                    ToastLength.Short).Show();
+            DateTime parsedDateTime = DateTime.Parse(expiry.Text);            
 
             if (String.IsNullOrEmpty(usernameString))
             {
