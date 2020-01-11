@@ -232,10 +232,6 @@ D:/Internship/Kemin Yolk Sensor/Kemin Yolk Sensor/obj/Debug/res/drawable/keminlo
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/stamp/_BuildLibraryImportsCache.stamp
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/resourcepaths.cache
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/res.flag
-/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/flata/3fb2e3e1b8ed3c7c649a0d65c71ab0f25f1bc14c.stamp
-/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/flata/e86255c74047f6f9163c867192f6547824d5feac.stamp
-/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/flata/3fb2e3e1b8ed3c7c649a0d65c71ab0f25f1bc14c.flata
-/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/flata/e86255c74047f6f9163c867192f6547824d5feac.flata
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/flata/compiled.flata
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/R.txt
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/R.cs.flag
@@ -270,7 +266,6 @@ D:/Internship/Kemin Yolk Sensor/Kemin Yolk Sensor/obj/Debug/res/drawable/keminlo
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/res/drawable/calibrationimg.png
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/res/drawable/scorebutton.xml
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/res/drawable/keminlogo.png
-/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/res/drawable/splash.png
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/uploadflags.txt
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/resolvedassemblies.hash
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/linksrc/Kemin Yolk Sensor.dll
@@ -465,3 +460,27 @@ D:/Internship/Kemin Yolk Sensor/Kemin Yolk Sensor/obj/Debug/res/drawable/keminlo
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/src/md520e8571786dbb9592fc0183ed2dcb11a/UserManagementActivity.java
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/res/layout/adduserlayout.xml
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/src/md520e8571786dbb9592fc0183ed2dcb11a/AddUserActivity.java
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/flata/658963bae1fae75a4615783845a671fe395ed03a.stamp
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/flata/8cbca0764c4386d1e205ed27e32d6a26e292563c.stamp
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/flata/658963bae1fae75a4615783845a671fe395ed03a.flata
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/flata/8cbca0764c4386d1e205ed27e32d6a26e292563c.flata
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/bin/Debug/SQLite-net.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/bin/Debug/SQLitePCLRaw.core.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/bin/Debug/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/bin/Debug/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/bin/Debug/SQLite-net.xml
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/linksrc/SQLite-net.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/linksrc/SQLitePCLRaw.batteries_green.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/linksrc/SQLitePCLRaw.batteries_v2.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/linksrc/SQLitePCLRaw.core.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/linksrc/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/linksrc/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/SQLite-net.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/SQLitePCLRaw.batteries_green.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/SQLitePCLRaw.batteries_v2.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/SQLitePCLRaw.core.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/res/drawable-mdpi/splash.png

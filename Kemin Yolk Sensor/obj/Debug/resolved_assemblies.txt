@@ -4,6 +4,12 @@
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/Mono.Android.dll
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/mscorlib.dll
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/Newtonsoft.Json.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/SQLite-net.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/SQLitePCLRaw.batteries_green.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/SQLitePCLRaw.batteries_v2.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/SQLitePCLRaw.core.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/SQLitePCLRaw.provider.e_sqlite3.dll
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/System.Core.dll
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/System.dll
 /Users/ayush/freelance/freelance/Kemin Yolk Sensor/obj/Debug/android/assets/System.Xml.dll

@@ -16,7 +16,7 @@ using Kemin_Yolk_Sensor.Model;
 
 namespace Kemin_Yolk_Sensor
 {
-    [Activity(Theme = "@style/MyTheme.Login", Label = "UserManagementActivity", ScreenOrientation = ScreenOrientation.Portrait)]    
+    [Activity(Theme = "@style/MyTheme.Login", Label = "User Management", ScreenOrientation = ScreenOrientation.Portrait)]    
     public class UserManagementActivity : Activity
     {
         private ListView listView;
