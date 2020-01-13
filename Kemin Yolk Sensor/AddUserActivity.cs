@@ -16,7 +16,7 @@ using Kemin_Yolk_Sensor.Model;
 
 namespace Kemin_Yolk_Sensor
 {
-    [Activity(Theme = "@style/MyTheme.Login", Label = "AddUserActivity", ScreenOrientation = ScreenOrientation.Portrait)]    
+    [Activity(Theme = "@style/MyTheme.Login", Label = "Add User", ScreenOrientation = ScreenOrientation.Portrait)]    
     public class AddUserActivity : Activity, DatePickerDialog.IOnDateSetListener
     {
         private EditText username;
